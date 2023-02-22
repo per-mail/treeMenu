@@ -1,7 +1,7 @@
 from django.shortcuts import render
 
 
-def testmenu(request):
+def menu(request):
     return render(request, 'menu/menu.html')
 
 def get_rubric(request):
